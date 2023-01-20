@@ -53,16 +53,22 @@
                 slidesToScroll: 1,
                 arrows: true,
                 fade: true,
-                asNavFor: '.nav-images'
+                adaptiveHeight: false,
+                variableWidth: false,
+                asNavFor: '.nav-images',
             });
             $('.nav-images').slick({
-                slidesToShow: 6,
+                slidesToShow: 7,
                 slidesToScroll: 2,
                 asNavFor: '.imags',
+                infinite: false,
                 arrows: false,
                 dots: false,
                 centerMode: false,
-                focusOnSelect: true
+                adaptiveHeight: false,
+                variableWidth: false,
+                focusOnSelect: true,
+                centerPadding: '10px',
               });
           });
     </script>

@@ -2555,9 +2555,9 @@
             navTarget = _.getNavTarget();
             navTarget = navTarget.slick('getSlick');
 
-            if ( navTarget.slideCount <= navTarget.options.slidesToShow ) {
+            // if ( navTarget.slideCount+1 <= navTarget.options.slidesToShow ) {
                 navTarget.setSlideClasses(_.currentSlide);
-            }
+            // } // Valdean Souza compentou esse código
 
         }
 
